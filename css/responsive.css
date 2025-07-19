@@ -1,0 +1,153 @@
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .floating-skills {
+        display: none;
+    }
+    
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-6 { flex: 0 0 100%; max-width: 100%; }
+    .col-md-4 { flex: 0 0 100%; max-width: 100%; }
+    .col-md-8 { flex: 0 0 100%; max-width: 100%; }
+    
+    .hero-stats {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .floating-cards {
+        display: none;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero {
+        padding: 6rem 0 4rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .navbar {
+        width: calc(100% - 20px);
+        padding: 10px 20px;
+    }
+    
+    .nav-links {
+        gap: 5px;
+    }
+    
+    .nav-links li a {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .floating-card {
+        width: 250px;
+        padding: 1.5rem;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .portfolio-card {
+        margin: 0 0.5rem;
+    }
+    
+    .navbar {
+        width: calc(100% - 10px);
+        padding: 8px 15px;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    .nav-links li a {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+    
+    .theme-toggle {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Additional Mobile Improvements */
+@media (max-width: 360px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .container {
+        padding: 0 0.5rem;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .navbar {
+        justify-content: space-between;
+    }
+}
